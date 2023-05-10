@@ -38,9 +38,6 @@ service.get('/clienti', (req, res) => {
             res.status(500).send(errore);
         }
     })
-
-
-    
 })
 
 var server = service.listen(3000, () => {
